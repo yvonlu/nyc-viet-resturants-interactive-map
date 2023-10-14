@@ -1,4 +1,4 @@
-# nyc-viet-resturants-interactive-map
+# An Interactive Map of Vietnamese Restaurants in NYC
 Vietnamese Restaurant Map NYC
 
 **Description:**
@@ -26,3 +26,7 @@ Clone the repository using git clone followed by the repository's URL.
 Navigate to the project's root directory in the command line.
 Ensure Python is installed and use pip to install the folium library if not already installed.
 Run the script using a Python interpreter. The map gets saved as an HTML file in the project's root directory and can be viewed in any web browser.
+
+**Data Note**
+
+All data in the Json was taken using a Google Cloud API, and was configured to the map on October 13, 2023
