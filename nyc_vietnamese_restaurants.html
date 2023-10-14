@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_22ee36ee4d7bd1b757517cb0fb5ae474 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_22ee36ee4d7bd1b757517cb0fb5ae474" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_22ee36ee4d7bd1b757517cb0fb5ae474 = L.map(
+                "map_22ee36ee4d7bd1b757517cb0fb5ae474",
+                {
+                    center: [40.712776, -74.005974],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_da28bbf0d6110a4b7ebc8dd4f990d74c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+            var marker_42c988302fb5e20c4a168c64382e0276 = L.marker(
+                [40.7296988, -74.0006341],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_4b5c8106299e4d482f951181c03422cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2660cdb1be0a9f601bbb04dc048ca48 = $(`<div id="html_c2660cdb1be0a9f601bbb04dc048ca48" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Saigon Shack</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $<br>114 MacDougal St, New York</div></div>`)[0];
+                popup_4b5c8106299e4d482f951181c03422cc.setContent(html_c2660cdb1be0a9f601bbb04dc048ca48);
+            
+        
+
+        marker_42c988302fb5e20c4a168c64382e0276.bindPopup(popup_4b5c8106299e4d482f951181c03422cc)
+        ;
+
+        
+    
+    
+            var marker_194792e2944fae8ea1a43273887b3c43 = L.marker(
+                [40.7303656, -73.98350909999999],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_2cacc197493fbe4b091f632ee859b638 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7486264722c7e4958cbe494acdc68e9b = $(`<div id="html_7486264722c7e4958cbe494acdc68e9b" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Sao Mai</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $<br>203 1st Ave., New York</div></div>`)[0];
+                popup_2cacc197493fbe4b091f632ee859b638.setContent(html_7486264722c7e4958cbe494acdc68e9b);
+            
+        
+
+        marker_194792e2944fae8ea1a43273887b3c43.bindPopup(popup_2cacc197493fbe4b091f632ee859b638)
+        ;
+
+        
+    
+    
+            var marker_0d11dbfeb9c203f9b49b58bc4a59b795 = L.marker(
+                [40.728907, -74.00097699999999],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_b5608922d8d5b6793ff1eef266adafe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_233f62511cc73789217b1d931215a029 = $(`<div id="html_233f62511cc73789217b1d931215a029" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Hello Saigon</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>180 Bleecker St, New York</div></div>`)[0];
+                popup_b5608922d8d5b6793ff1eef266adafe1.setContent(html_233f62511cc73789217b1d931215a029);
+            
+        
+
+        marker_0d11dbfeb9c203f9b49b58bc4a59b795.bindPopup(popup_b5608922d8d5b6793ff1eef266adafe1)
+        ;
+
+        
+    
+    
+            var marker_ab5d55f1f1ae983e209c040456dc0060 = L.marker(
+                [40.7176857, -73.9927822],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_5f520cafbcdebce054d07a041647da77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cffd837c19ff0f709653faa16d0f983 = $(`<div id="html_3cffd837c19ff0f709653faa16d0f983" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Pho Grand</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>277C Grand St, New York</div></div>`)[0];
+                popup_5f520cafbcdebce054d07a041647da77.setContent(html_3cffd837c19ff0f709653faa16d0f983);
+            
+        
+
+        marker_ab5d55f1f1ae983e209c040456dc0060.bindPopup(popup_5f520cafbcdebce054d07a041647da77)
+        ;
+
+        
+    
+    
+            var marker_e54313f7de2dc3b2285a2d84a292f364 = L.marker(
+                [40.719515, -73.996577],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_7bf0b04cfbb703386a0f91c6e0957040 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31ffca82dfcb04ec4da9e0556d45011a = $(`<div id="html_31ffca82dfcb04ec4da9e0556d45011a" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Pho Bang</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>157 Mott St, New York</div></div>`)[0];
+                popup_7bf0b04cfbb703386a0f91c6e0957040.setContent(html_31ffca82dfcb04ec4da9e0556d45011a);
+            
+        
+
+        marker_e54313f7de2dc3b2285a2d84a292f364.bindPopup(popup_7bf0b04cfbb703386a0f91c6e0957040)
+        ;
+
+        
+    
+    
+            var marker_fc85a8d5568e8442c83c20cadcfa4724 = L.marker(
+                [40.7292643, -73.9860978],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_14dfacec1ceae9eaba05414ca7916b4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86c2f4e93178ef5ce3479ec3db2e6a43 = $(`<div id="html_86c2f4e93178ef5ce3479ec3db2e6a43" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Madame Vo</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>212 E 10th St, New York</div></div>`)[0];
+                popup_14dfacec1ceae9eaba05414ca7916b4d.setContent(html_86c2f4e93178ef5ce3479ec3db2e6a43);
+            
+        
+
+        marker_fc85a8d5568e8442c83c20cadcfa4724.bindPopup(popup_14dfacec1ceae9eaba05414ca7916b4d)
+        ;
+
+        
+    
+    
+            var marker_28814e77a09d013651ea52da873dbd67 = L.marker(
+                [40.7270085, -73.9835497],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_00100f3abd69e92e0670008f739c7b85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7052e8e0598a642e59695ec38c16630c = $(`<div id="html_7052e8e0598a642e59695ec38c16630c" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Hanoi House</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>119 St Marks Pl, New York</div></div>`)[0];
+                popup_00100f3abd69e92e0670008f739c7b85.setContent(html_7052e8e0598a642e59695ec38c16630c);
+            
+        
+
+        marker_28814e77a09d013651ea52da873dbd67.bindPopup(popup_00100f3abd69e92e0670008f739c7b85)
+        ;
+
+        
+    
+    
+            var marker_57e69ddf8254f8bc69bbfb5f5d56d7d9 = L.marker(
+                [40.7457819, -73.9983625],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_5353cf138840cd3a6d0996db6180bbed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f69c0159b7661440e156501b99341590 = $(`<div id="html_f69c0159b7661440e156501b99341590" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>The Pho 2</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>273 8th Ave, New York</div></div>`)[0];
+                popup_5353cf138840cd3a6d0996db6180bbed.setContent(html_f69c0159b7661440e156501b99341590);
+            
+        
+
+        marker_57e69ddf8254f8bc69bbfb5f5d56d7d9.bindPopup(popup_5353cf138840cd3a6d0996db6180bbed)
+        ;
+
+        
+    
+    
+            var marker_8e9f53e99212887b1db09e0f24ef6c2c = L.marker(
+                [40.7181278, -73.9943694],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_b66816550a5183131f556e02f3c72ddf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6af20efaf447e8ad4a1e03304e8cf17 = $(`<div id="html_b6af20efaf447e8ad4a1e03304e8cf17" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Nam Sơn</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>245 Grand St #1, New York</div></div>`)[0];
+                popup_b66816550a5183131f556e02f3c72ddf.setContent(html_b6af20efaf447e8ad4a1e03304e8cf17);
+            
+        
+
+        marker_8e9f53e99212887b1db09e0f24ef6c2c.bindPopup(popup_b66816550a5183131f556e02f3c72ddf)
+        ;
+
+        
+    
+    
+            var marker_536f498f2733276e0f9fe974f8530aa5 = L.marker(
+                [40.71888879999999, -73.9589659],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_4a374848c44f877986027496ca7f974f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d6277307e123f3cbbf1b679f81cc420 = $(`<div id="html_9d6277307e123f3cbbf1b679f81cc420" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Lucy’s Vietnamese - Williamsburg</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>112 Berry St, Brooklyn</div></div>`)[0];
+                popup_4a374848c44f877986027496ca7f974f.setContent(html_9d6277307e123f3cbbf1b679f81cc420);
+            
+        
+
+        marker_536f498f2733276e0f9fe974f8530aa5.bindPopup(popup_4a374848c44f877986027496ca7f974f)
+        ;
+
+        
+    
+    
+            var marker_e85b7df5c2bdaa2c50d4fa2aa156f4c0 = L.marker(
+                [40.71258479999999, -73.96047829999999],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_7f7d9b112a083faaa34068593129efd1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f33cd137f0a0e5b54bca2179beadf543 = $(`<div id="html_f33cd137f0a0e5b54bca2179beadf543" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>High Lúa</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: N/A<br>182 S 2nd St, Brooklyn</div></div>`)[0];
+                popup_7f7d9b112a083faaa34068593129efd1.setContent(html_f33cd137f0a0e5b54bca2179beadf543);
+            
+        
+
+        marker_e85b7df5c2bdaa2c50d4fa2aa156f4c0.bindPopup(popup_7f7d9b112a083faaa34068593129efd1)
+        ;
+
+        
+    
+    
+            var marker_360dcdfd9308e5c03f3c89de3e54a539 = L.marker(
+                [40.7252729, -73.9875679],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_26540c661b938901b9014023e0375b56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b670b616a612ceeff4369cd289e4710 = $(`<div id="html_1b670b616a612ceeff4369cd289e4710" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Nón Lá</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $<br>128 E 4th St, New York</div></div>`)[0];
+                popup_26540c661b938901b9014023e0375b56.setContent(html_1b670b616a612ceeff4369cd289e4710);
+            
+        
+
+        marker_360dcdfd9308e5c03f3c89de3e54a539.bindPopup(popup_26540c661b938901b9014023e0375b56)
+        ;
+
+        
+    
+    
+            var marker_5edfdcb1920d1dbc8beff9b07f37b1a7 = L.marker(
+                [40.68144729999999, -73.977239],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_d552e516f7594b7cc90eb9769ec3e45c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb1363d1aae1458447f552c63efbc544 = $(`<div id="html_cb1363d1aae1458447f552c63efbc544" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>5ive Spice Tacos & Banh Mi</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $<br>52 5th Ave, Brooklyn</div></div>`)[0];
+                popup_d552e516f7594b7cc90eb9769ec3e45c.setContent(html_cb1363d1aae1458447f552c63efbc544);
+            
+        
+
+        marker_5edfdcb1920d1dbc8beff9b07f37b1a7.bindPopup(popup_d552e516f7594b7cc90eb9769ec3e45c)
+        ;
+
+        
+    
+    
+            var marker_8cb4a10a106a0e97735fe8f596d9bb9b = L.marker(
+                [40.7235303, -73.9880586],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_b67ea4a35af0704b96976a11443431b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26f129a24488c08ed91eb13f01281efe = $(`<div id="html_26f129a24488c08ed91eb13f01281efe" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>V-Nam Cafe</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $<br>20 1st Ave., New York</div></div>`)[0];
+                popup_b67ea4a35af0704b96976a11443431b1.setContent(html_26f129a24488c08ed91eb13f01281efe);
+            
+        
+
+        marker_8cb4a10a106a0e97735fe8f596d9bb9b.bindPopup(popup_b67ea4a35af0704b96976a11443431b1)
+        ;
+
+        
+    
+    
+            var marker_553b96a2728c599c9f9697420ba3033f = L.marker(
+                [40.7456877, -73.95352160000002],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_d8a6e444e5c2998cc091f20c57356e28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02d8e9ae690c8ff479f8ad1390a79059 = $(`<div id="html_02d8e9ae690c8ff479f8ad1390a79059" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Cyclo</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>5-51 47th Ave, Queens</div></div>`)[0];
+                popup_d8a6e444e5c2998cc091f20c57356e28.setContent(html_02d8e9ae690c8ff479f8ad1390a79059);
+            
+        
+
+        marker_553b96a2728c599c9f9697420ba3033f.bindPopup(popup_d8a6e444e5c2998cc091f20c57356e28)
+        ;
+
+        
+    
+    
+            var marker_2cec6120fb291941b7ba0eb75eca494e = L.marker(
+                [40.6893514, -73.9688956],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_1350fade487b56dfaa35e5c9676beb03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84fd3b1bf4f55fd239127f76738a709c = $(`<div id="html_84fd3b1bf4f55fd239127f76738a709c" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Mekong BK</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>250 Dekalb Ave, Brooklyn</div></div>`)[0];
+                popup_1350fade487b56dfaa35e5c9676beb03.setContent(html_84fd3b1bf4f55fd239127f76738a709c);
+            
+        
+
+        marker_2cec6120fb291941b7ba0eb75eca494e.bindPopup(popup_1350fade487b56dfaa35e5c9676beb03)
+        ;
+
+        
+    
+    
+            var marker_138b0ae166e44621e0df257759f30ca1 = L.marker(
+                [40.7215747, -74.0457655],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_3542a759d7164b9e04dae393d9a0e7fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2befe56e1b5c80a55efcf2beffaa5ce = $(`<div id="html_c2befe56e1b5c80a55efcf2beffaa5ce" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Saigon Cafe</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>188 Newark Ave, Jersey City</div></div>`)[0];
+                popup_3542a759d7164b9e04dae393d9a0e7fb.setContent(html_c2befe56e1b5c80a55efcf2beffaa5ce);
+            
+        
+
+        marker_138b0ae166e44621e0df257759f30ca1.bindPopup(popup_3542a759d7164b9e04dae393d9a0e7fb)
+        ;
+
+        
+    
+    
+            var marker_63be30bbd7a57f361dc761dab43c0f06 = L.marker(
+                [40.7181479, -73.95755539999999],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_2de175c5f7991e3131a51f1d75599f20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65efed41cb2856f1d6c30834da2b80ba = $(`<div id="html_65efed41cb2856f1d6c30834da2b80ba" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Mama Pho</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>172 Bedford Ave, Brooklyn</div></div>`)[0];
+                popup_2de175c5f7991e3131a51f1d75599f20.setContent(html_65efed41cb2856f1d6c30834da2b80ba);
+            
+        
+
+        marker_63be30bbd7a57f361dc761dab43c0f06.bindPopup(popup_2de175c5f7991e3131a51f1d75599f20)
+        ;
+
+        
+    
+    
+            var marker_74b3e24f28dbe2082569f0d66065f4d6 = L.marker(
+                [40.702666, -73.9911667],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_8ca3feaae18db5022a4ca44da073523b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_602f94cb7432ceb1939918b524ae1722 = $(`<div id="html_602f94cb7432ceb1939918b524ae1722" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Em Vietnamese Bistro</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>57 Front St, Brooklyn</div></div>`)[0];
+                popup_8ca3feaae18db5022a4ca44da073523b.setContent(html_602f94cb7432ceb1939918b524ae1722);
+            
+        
+
+        marker_74b3e24f28dbe2082569f0d66065f4d6.bindPopup(popup_8ca3feaae18db5022a4ca44da073523b)
+        ;
+
+        
+    
+    
+            var marker_b796214dd771bdd86f11be31a7c54ae8 = L.marker(
+                [40.7167624, -73.9996965],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_c1276386d2d979b4ac1ca85bc69b6d31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7caf41463a1053eb64a38049eb1b5eb = $(`<div id="html_e7caf41463a1053eb64a38049eb1b5eb" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Nha Trang One</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>87 Baxter St, New York</div></div>`)[0];
+                popup_c1276386d2d979b4ac1ca85bc69b6d31.setContent(html_e7caf41463a1053eb64a38049eb1b5eb);
+            
+        
+
+        marker_b796214dd771bdd86f11be31a7c54ae8.bindPopup(popup_c1276386d2d979b4ac1ca85bc69b6d31)
+        ;
+
+        
+    
+    
+            var marker_083d113f67d08eeeca6b22b6dd193b31 = L.marker(
+                [40.7105062, -74.00762379999999],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_341f817cc87ec9cb55e8ed774800b7a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30bebb1a4df6eebaa94865ffb6bc19af = $(`<div id="html_30bebb1a4df6eebaa94865ffb6bc19af" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Vietspot Noodle and Sandwich</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>99 Nassau St, New York</div></div>`)[0];
+                popup_341f817cc87ec9cb55e8ed774800b7a2.setContent(html_30bebb1a4df6eebaa94865ffb6bc19af);
+            
+        
+
+        marker_083d113f67d08eeeca6b22b6dd193b31.bindPopup(popup_341f817cc87ec9cb55e8ed774800b7a2)
+        ;
+
+        
+    
+    
+            var marker_8af53e3a9940d9f2de971b99aac6c20d = L.marker(
+                [40.6732928, -73.9630603],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_3d83ac94c5807ea2b019790a355770aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5438e1395894114d145d029236d6b9ae = $(`<div id="html_5438e1395894114d145d029236d6b9ae" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Banh Mi Place</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>824b Washington Ave, Brooklyn</div></div>`)[0];
+                popup_3d83ac94c5807ea2b019790a355770aa.setContent(html_5438e1395894114d145d029236d6b9ae);
+            
+        
+
+        marker_8af53e3a9940d9f2de971b99aac6c20d.bindPopup(popup_3d83ac94c5807ea2b019790a355770aa)
+        ;
+
+        
+    
+    
+            var marker_58f4d11f634ec0be2f17e2c035ebf211 = L.marker(
+                [40.7520484, -74.04495039999999],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_7855e9f68b890ddbd2a25aeef60efcb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c03d897ed13d09e7d333bfe778960bb = $(`<div id="html_5c03d897ed13d09e7d333bfe778960bb" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Saigon Bistro</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>514 Central Ave, Jersey City</div></div>`)[0];
+                popup_7855e9f68b890ddbd2a25aeef60efcb8.setContent(html_5c03d897ed13d09e7d333bfe778960bb);
+            
+        
+
+        marker_58f4d11f634ec0be2f17e2c035ebf211.bindPopup(popup_7855e9f68b890ddbd2a25aeef60efcb8)
+        ;
+
+        
+    
+    
+            var marker_006bf66d56dae006a0fd855ad837d6ac = L.marker(
+                [40.6946617, -73.99340450000001],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_12e8bc52b95f068202ff9440330180f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcf861356a9231738301bc916dabfda7 = $(`<div id="html_dcf861356a9231738301bc916dabfda7" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Hanco's</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>147 Montague St, Brooklyn</div></div>`)[0];
+                popup_12e8bc52b95f068202ff9440330180f4.setContent(html_dcf861356a9231738301bc916dabfda7);
+            
+        
+
+        marker_006bf66d56dae006a0fd855ad837d6ac.bindPopup(popup_12e8bc52b95f068202ff9440330180f4)
+        ;
+
+        
+    
+    
+            var marker_e967e855ec367ed132678bbceab4e2d4 = L.marker(
+                [40.6911288, -73.99190879999999],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_4ade095fe4c8541535215222e7cd3f7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31c85256b95691afc3b8c08a3004909b = $(`<div id="html_31c85256b95691afc3b8c08a3004909b" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Banhmigos</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>92 Court St, Brooklyn</div></div>`)[0];
+                popup_4ade095fe4c8541535215222e7cd3f7d.setContent(html_31c85256b95691afc3b8c08a3004909b);
+            
+        
+
+        marker_e967e855ec367ed132678bbceab4e2d4.bindPopup(popup_4ade095fe4c8541535215222e7cd3f7d)
+        ;
+
+        
+    
+    
+            var marker_6415ef6073c07ee2125f9a32f36b7c39 = L.marker(
+                [40.716637, -73.99956399999999],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_c34117a079c6415ef5698db57a89269d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff34e67d14fd7ed576089bc99fa5b678 = $(`<div id="html_ff34e67d14fd7ed576089bc99fa5b678" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Pasteur Grill & Noodles</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>85 Baxter St, New York</div></div>`)[0];
+                popup_c34117a079c6415ef5698db57a89269d.setContent(html_ff34e67d14fd7ed576089bc99fa5b678);
+            
+        
+
+        marker_6415ef6073c07ee2125f9a32f36b7c39.bindPopup(popup_c34117a079c6415ef5698db57a89269d)
+        ;
+
+        
+    
+    
+            var marker_93536749a14697fff39a81d5165286d0 = L.marker(
+                [40.6872003, -73.9902911],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_13d9e9c8690ecf27b28dd6169403397f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96d24da1bfed9de4a7f6f544aadf4b6a = $(`<div id="html_96d24da1bfed9de4a7f6f544aadf4b6a" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Hanco's</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>134 Smith St, Brooklyn</div></div>`)[0];
+                popup_13d9e9c8690ecf27b28dd6169403397f.setContent(html_96d24da1bfed9de4a7f6f544aadf4b6a);
+            
+        
+
+        marker_93536749a14697fff39a81d5165286d0.bindPopup(popup_13d9e9c8690ecf27b28dd6169403397f)
+        ;
+
+        
+    
+    
+            var marker_b75c9a7b2e3b0ec8dedf984f6c7b86f7 = L.marker(
+                [40.7168378, -73.9996312],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_67cca488d72c6bb5df32184230d78e4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b99f3d5f2e933163129559bf336f1bad = $(`<div id="html_b99f3d5f2e933163129559bf336f1bad" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Thái Sơn</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>89 Baxter St, New York</div></div>`)[0];
+                popup_67cca488d72c6bb5df32184230d78e4d.setContent(html_b99f3d5f2e933163129559bf336f1bad);
+            
+        
+
+        marker_b75c9a7b2e3b0ec8dedf984f6c7b86f7.bindPopup(popup_67cca488d72c6bb5df32184230d78e4d)
+        ;
+
+        
+    
+    
+            var marker_b2c61ebe1f10af98a7b139101c7c8239 = L.marker(
+                [40.7214999, -73.98837329999999],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_c97df09b39bd111e5a02d0860220952c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_115614b1f59ccaba0cb9f0e6aef2848e = $(`<div id="html_115614b1f59ccaba0cb9f0e6aef2848e" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Saigon Social</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: N/A<br>172 Orchard St, New York</div></div>`)[0];
+                popup_c97df09b39bd111e5a02d0860220952c.setContent(html_115614b1f59ccaba0cb9f0e6aef2848e);
+            
+        
+
+        marker_b2c61ebe1f10af98a7b139101c7c8239.bindPopup(popup_c97df09b39bd111e5a02d0860220952c)
+        ;
+
+        
+    
+    
+            var marker_084d69a4fbcb7cb6a7925d7e7dd69309 = L.marker(
+                [40.7113123, -73.9659102],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_29156e335b535d1e07b9e64e6d1ab560 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26e10d8e06ebe875b8da3c134f0e9653 = $(`<div id="html_26e10d8e06ebe875b8da3c134f0e9653" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Bia</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>67 S 6th St, Brooklyn</div></div>`)[0];
+                popup_29156e335b535d1e07b9e64e6d1ab560.setContent(html_26e10d8e06ebe875b8da3c134f0e9653);
+            
+        
+
+        marker_084d69a4fbcb7cb6a7925d7e7dd69309.bindPopup(popup_29156e335b535d1e07b9e64e6d1ab560)
+        ;
+
+        
+    
+    
+            var marker_fb084a4e38dfc273b47de96e9c26016c = L.marker(
+                [40.6741221, -73.95712209999999],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_433526cec72abf9d41a1eedb9a01b306 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a23ff01314a4c2b49b791d2d062dc5eb = $(`<div id="html_a23ff01314a4c2b49b791d2d062dc5eb" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Banhmigos Park Place</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>636 Park Pl, Brooklyn</div></div>`)[0];
+                popup_433526cec72abf9d41a1eedb9a01b306.setContent(html_a23ff01314a4c2b49b791d2d062dc5eb);
+            
+        
+
+        marker_fb084a4e38dfc273b47de96e9c26016c.bindPopup(popup_433526cec72abf9d41a1eedb9a01b306)
+        ;
+
+        
+    
+    
+            var marker_c70d5ebd4d879c807c4f2add2ce2573c = L.marker(
+                [40.7110827, -73.9485955],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_3b63d8619ed4f1c8892780080fc5d18b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c12f0d16e11c70e9552bfc6084f20f33 = $(`<div id="html_c12f0d16e11c70e9552bfc6084f20f33" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Mama Pho</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>580 Grand St, Brooklyn</div></div>`)[0];
+                popup_3b63d8619ed4f1c8892780080fc5d18b.setContent(html_c12f0d16e11c70e9552bfc6084f20f33);
+            
+        
+
+        marker_c70d5ebd4d879c807c4f2add2ce2573c.bindPopup(popup_3b63d8619ed4f1c8892780080fc5d18b)
+        ;
+
+        
+    
+    
+            var marker_a85cf64f285f2bebba25a2e548cd5be7 = L.marker(
+                [40.6755144, -73.9809085],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_e177113107ba67bfe36be23d31f5f6d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8529abb82250fdabf34b28ee304cef5f = $(`<div id="html_8529abb82250fdabf34b28ee304cef5f" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Lotus</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>229 5th Ave, Brooklyn</div></div>`)[0];
+                popup_e177113107ba67bfe36be23d31f5f6d8.setContent(html_8529abb82250fdabf34b28ee304cef5f);
+            
+        
+
+        marker_a85cf64f285f2bebba25a2e548cd5be7.bindPopup(popup_e177113107ba67bfe36be23d31f5f6d8)
+        ;
+
+        
+    
+    
+            var marker_d219ee51d91884a0698b3041b4a2edc8 = L.marker(
+                [40.7225831, -73.9962714],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_79b88a6f7c5dd62f1f520605b6ab60df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_251ae98403d6541065fab494f586d9aa = $(`<div id="html_251ae98403d6541065fab494f586d9aa" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>5ive Spice Taco & Banh Mi</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>227 Mulberry St, New York</div></div>`)[0];
+                popup_79b88a6f7c5dd62f1f520605b6ab60df.setContent(html_251ae98403d6541065fab494f586d9aa);
+            
+        
+
+        marker_d219ee51d91884a0698b3041b4a2edc8.bindPopup(popup_79b88a6f7c5dd62f1f520605b6ab60df)
+        ;
+
+        
+    
+    
+            var marker_4a721c284fd8810c2d2947f2906c5b11 = L.marker(
+                [40.7296511, -73.9582848],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_079162196f97beda99bfb3124b12487f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23b0c542ad41f8f912144b0b869d8469 = $(`<div id="html_23b0c542ad41f8f912144b0b869d8469" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Di An Di</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>68 Greenpoint Ave, Brooklyn</div></div>`)[0];
+                popup_079162196f97beda99bfb3124b12487f.setContent(html_23b0c542ad41f8f912144b0b869d8469);
+            
+        
+
+        marker_4a721c284fd8810c2d2947f2906c5b11.bindPopup(popup_079162196f97beda99bfb3124b12487f)
+        ;
+
+        
+    
+    
+            var marker_5a692c6df1e196bf8f4d857817432018 = L.marker(
+                [40.7136831, -73.9621056],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_6fd03ebd44238370a12fc3752f7b4031 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ac424e572c8d1c26983a61da36d1ac5 = $(`<div id="html_0ac424e572c8d1c26983a61da36d1ac5" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>So Pho 88</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>314 Bedford Ave, Brooklyn</div></div>`)[0];
+                popup_6fd03ebd44238370a12fc3752f7b4031.setContent(html_0ac424e572c8d1c26983a61da36d1ac5);
+            
+        
+
+        marker_5a692c6df1e196bf8f4d857817432018.bindPopup(popup_6fd03ebd44238370a12fc3752f7b4031)
+        ;
+
+        
+    
+    
+            var marker_1151f5b7b837ec3631f725ab6beb8fb0 = L.marker(
+                [40.6755038, -73.9743463],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_56ffe342d3269d43ff9cd9688f1abc58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00aa9bf30a25d205cad9e1fc89a3166b = $(`<div id="html_00aa9bf30a25d205cad9e1fc89a3166b" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Banhmigos</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>178 Lincoln Pl, Brooklyn</div></div>`)[0];
+                popup_56ffe342d3269d43ff9cd9688f1abc58.setContent(html_00aa9bf30a25d205cad9e1fc89a3166b);
+            
+        
+
+        marker_1151f5b7b837ec3631f725ab6beb8fb0.bindPopup(popup_56ffe342d3269d43ff9cd9688f1abc58)
+        ;
+
+        
+    
+    
+            var marker_473b9fdd053d81559ef3952b89ade9b9 = L.marker(
+                [40.6856358, -73.9541969],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_64015af86d90eddfd1941094a456a151 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_243cc7ae557801f828175518d59db28f = $(`<div id="html_243cc7ae557801f828175518d59db28f" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Lucy's Vietnamese - Bedford Stuyvesant</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: N/A<br>1111 Bedford Ave, Brooklyn</div></div>`)[0];
+                popup_64015af86d90eddfd1941094a456a151.setContent(html_243cc7ae557801f828175518d59db28f);
+            
+        
+
+        marker_473b9fdd053d81559ef3952b89ade9b9.bindPopup(popup_64015af86d90eddfd1941094a456a151)
+        ;
+
+        
+    
+    
+            var marker_61910d613add240dedd855054906822d = L.marker(
+                [40.725737, -73.984273],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_84f5f288d0c528461b7d49e519e85aee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6d0de915ad0d0f75d4fcc29bc8a770b = $(`<div id="html_c6d0de915ad0d0f75d4fcc29bc8a770b" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Banh Mi Zon</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $<br>443 E 6th St, New York</div></div>`)[0];
+                popup_84f5f288d0c528461b7d49e519e85aee.setContent(html_c6d0de915ad0d0f75d4fcc29bc8a770b);
+            
+        
+
+        marker_61910d613add240dedd855054906822d.bindPopup(popup_84f5f288d0c528461b7d49e519e85aee)
+        ;
+
+        
+    
+    
+            var marker_d2ddf8a64e2c50d75b2ba682c11c1a07 = L.marker(
+                [40.7557876, -73.97870689999999],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_da020cafa05618b48c57f7fd8228db79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af23200fde436fb50db303f5e0f67102 = $(`<div id="html_af23200fde436fb50db303f5e0f67102" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Joju</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>555 5th Ave, New York</div></div>`)[0];
+                popup_da020cafa05618b48c57f7fd8228db79.setContent(html_af23200fde436fb50db303f5e0f67102);
+            
+        
+
+        marker_d2ddf8a64e2c50d75b2ba682c11c1a07.bindPopup(popup_da020cafa05618b48c57f7fd8228db79)
+        ;
+
+        
+    
+    
+            var marker_d05f1d8050db7695e6480c918b7b452d = L.marker(
+                [40.745358, -73.9776279],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_ed95a06820f4590a693901968adeaf5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34b4c33b6fc315ebb7138ff24e5ea20e = $(`<div id="html_34b4c33b6fc315ebb7138ff24e5ea20e" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Nom Nam</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $<br>210 E 34th St, New York</div></div>`)[0];
+                popup_ed95a06820f4590a693901968adeaf5a.setContent(html_34b4c33b6fc315ebb7138ff24e5ea20e);
+            
+        
+
+        marker_d05f1d8050db7695e6480c918b7b452d.bindPopup(popup_ed95a06820f4590a693901968adeaf5a)
+        ;
+
+        
+    
+    
+            var marker_672fc1af07ca2cd8fa6d28fa8f641cab = L.marker(
+                [40.7385586, -74.0003536],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_7642183a9a46d6fa9bb5eb9fdb18f46c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16ec661f3a5aa076861b6d815b0eb919 = $(`<div id="html_16ec661f3a5aa076861b6d815b0eb919" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Saigon Market</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>202 W 14th St, New York</div></div>`)[0];
+                popup_7642183a9a46d6fa9bb5eb9fdb18f46c.setContent(html_16ec661f3a5aa076861b6d815b0eb919);
+            
+        
+
+        marker_672fc1af07ca2cd8fa6d28fa8f641cab.bindPopup(popup_7642183a9a46d6fa9bb5eb9fdb18f46c)
+        ;
+
+        
+    
+    
+            var marker_e6b79d76bc13f54741636fd2018d194c = L.marker(
+                [40.7304135, -73.9861027],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_dfecf019b77f1ccade73792cd6b437b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa322c4f5b65733ec0ff55792eaf2a51 = $(`<div id="html_aa322c4f5b65733ec0ff55792eaf2a51" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>PHO' Seng</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>174 2nd Ave, New York</div></div>`)[0];
+                popup_dfecf019b77f1ccade73792cd6b437b9.setContent(html_aa322c4f5b65733ec0ff55792eaf2a51);
+            
+        
+
+        marker_e6b79d76bc13f54741636fd2018d194c.bindPopup(popup_dfecf019b77f1ccade73792cd6b437b9)
+        ;
+
+        
+    
+    
+            var marker_eaab1d5d813af72f63192458e0050fc0 = L.marker(
+                [40.7199381, -73.9958857],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_d9572fd533def99f8392504f0670959a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5f16600b506dddc0b30e09f8cdd1049 = $(`<div id="html_e5f16600b506dddc0b30e09f8cdd1049" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Saigon Vietnamese Sandwich Deli</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $<br>369 Broome St, New York</div></div>`)[0];
+                popup_d9572fd533def99f8392504f0670959a.setContent(html_e5f16600b506dddc0b30e09f8cdd1049);
+            
+        
+
+        marker_eaab1d5d813af72f63192458e0050fc0.bindPopup(popup_d9572fd533def99f8392504f0670959a)
+        ;
+
+        
+    
+    
+            var marker_53c2b14fa6799841281c9766fa54a853 = L.marker(
+                [40.718475, -74.01026110000001],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_cc58e46a34baef66d9bf4f8e943a2603 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f8bf6a970152b3cbf2417e6fb8fa4f7 = $(`<div id="html_2f8bf6a970152b3cbf2417e6fb8fa4f7" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>VCafé</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>345 Greenwich St, New York</div></div>`)[0];
+                popup_cc58e46a34baef66d9bf4f8e943a2603.setContent(html_2f8bf6a970152b3cbf2417e6fb8fa4f7);
+            
+        
+
+        marker_53c2b14fa6799841281c9766fa54a853.bindPopup(popup_cc58e46a34baef66d9bf4f8e943a2603)
+        ;
+
+        
+    
+    
+            var marker_0d96480a569b3ef029f5a7413106bbef = L.marker(
+                [40.7147879, -74.006666],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_7b0fbdf94c9e04681ebe7cef4afb8e68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2ad641f280c14c17a880bcc715b04ee = $(`<div id="html_c2ad641f280c14c17a880bcc715b04ee" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Hello Vietpho</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: N/A<br>63 Reade St, New York</div></div>`)[0];
+                popup_7b0fbdf94c9e04681ebe7cef4afb8e68.setContent(html_c2ad641f280c14c17a880bcc715b04ee);
+            
+        
+
+        marker_0d96480a569b3ef029f5a7413106bbef.bindPopup(popup_7b0fbdf94c9e04681ebe7cef4afb8e68)
+        ;
+
+        
+    
+    
+            var marker_a0ce96c3011ca54b7d10d68b36fe89e2 = L.marker(
+                [40.71603, -74.0455076],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_a3fee52772789e3b87690dbb57919753 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d76277f790ea9aa85659a0c86f37344 = $(`<div id="html_1d76277f790ea9aa85659a0c86f37344" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Kung Fu Pho</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>257 Grand St, Jersey City</div></div>`)[0];
+                popup_a3fee52772789e3b87690dbb57919753.setContent(html_1d76277f790ea9aa85659a0c86f37344);
+            
+        
+
+        marker_a0ce96c3011ca54b7d10d68b36fe89e2.bindPopup(popup_a3fee52772789e3b87690dbb57919753)
+        ;
+
+        
+    
+    
+            var marker_cf3aa41fdb9a111ce03ff1edfbb1556e = L.marker(
+                [40.7520281, -73.9737622],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_d2fb50f896d8ddf7530af8a98b69f185 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08aa3928232b11964f4f2023b7615f67 = $(`<div id="html_08aa3928232b11964f4f2023b7615f67" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Boi licious Vietnamese Togo</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: N/A<br>160 E 44th St, New York</div></div>`)[0];
+                popup_d2fb50f896d8ddf7530af8a98b69f185.setContent(html_08aa3928232b11964f4f2023b7615f67);
+            
+        
+
+        marker_cf3aa41fdb9a111ce03ff1edfbb1556e.bindPopup(popup_d2fb50f896d8ddf7530af8a98b69f185)
+        ;
+
+        
+    
+    
+            var marker_282fecc7b8d437218e71fca865c425ba = L.marker(
+                [40.66666250000001, -73.9814679],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_503c36103a8cd6508335aad9d206b9e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3822e291a0af0d6a877aeae723ed817e = $(`<div id="html_3822e291a0af0d6a877aeae723ed817e" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Ha Noi</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>448 9th St, Brooklyn</div></div>`)[0];
+                popup_503c36103a8cd6508335aad9d206b9e2.setContent(html_3822e291a0af0d6a877aeae723ed817e);
+            
+        
+
+        marker_282fecc7b8d437218e71fca865c425ba.bindPopup(popup_503c36103a8cd6508335aad9d206b9e2)
+        ;
+
+        
+    
+    
+            var marker_dec73a732b76206b6e0c37242ae4c9a1 = L.marker(
+                [40.71917759999999, -73.9856361],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_5c571e5ea6356e52f84f3da2f51655f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f48bfb52a84b869ce899ad965d9c0fa9 = $(`<div id="html_f48bfb52a84b869ce899ad965d9c0fa9" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Ginger and Lemongrass</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>153 Rivington St, New York</div></div>`)[0];
+                popup_5c571e5ea6356e52f84f3da2f51655f1.setContent(html_f48bfb52a84b869ce899ad965d9c0fa9);
+            
+        
+
+        marker_dec73a732b76206b6e0c37242ae4c9a1.bindPopup(popup_5c571e5ea6356e52f84f3da2f51655f1)
+        ;
+
+        
+    
+    
+            var marker_60815ff5fbff4144efa3c65d79ede445 = L.marker(
+                [40.719286, -73.996697],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_85c7e1a69424f99ff29de51e9a78cb98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e25ec7a4e6772112b54b25345e0c59b = $(`<div id="html_2e25ec7a4e6772112b54b25345e0c59b" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Bánh Mì Saigon</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $<br>198 Grand St, New York</div></div>`)[0];
+                popup_85c7e1a69424f99ff29de51e9a78cb98.setContent(html_2e25ec7a4e6772112b54b25345e0c59b);
+            
+        
+
+        marker_60815ff5fbff4144efa3c65d79ede445.bindPopup(popup_85c7e1a69424f99ff29de51e9a78cb98)
+        ;
+
+        
+    
+    
+            var marker_fa7f9fd4b8a0e65e890958968b7630a1 = L.marker(
+                [40.6736625, -73.95002],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_fa2ffbcf1b5a528c30348b7dfdc6fd2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dba8cb135f5e1241a6ffca8646944aca = $(`<div id="html_dba8cb135f5e1241a6ffca8646944aca" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Banh Mi Cafe</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>689 Nostrand Ave., Brooklyn</div></div>`)[0];
+                popup_fa2ffbcf1b5a528c30348b7dfdc6fd2b.setContent(html_dba8cb135f5e1241a6ffca8646944aca);
+            
+        
+
+        marker_fa7f9fd4b8a0e65e890958968b7630a1.bindPopup(popup_fa2ffbcf1b5a528c30348b7dfdc6fd2b)
+        ;
+
+        
+    
+    
+            var marker_44bf8fdb6ee4b60ac3f4dcd4268fe7b6 = L.marker(
+                [40.7189185, -73.9852756],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_51b47b82f7fa6456783ae9648dc424a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a91af6fca4fc10f271f0480fa1aa181 = $(`<div id="html_2a91af6fca4fc10f271f0480fa1aa181" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Cloud Vietnamese Restaurant</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>79 Clinton St, New York</div></div>`)[0];
+                popup_51b47b82f7fa6456783ae9648dc424a6.setContent(html_2a91af6fca4fc10f271f0480fa1aa181);
+            
+        
+
+        marker_44bf8fdb6ee4b60ac3f4dcd4268fe7b6.bindPopup(popup_51b47b82f7fa6456783ae9648dc424a6)
+        ;
+
+        
+    
+    
+            var marker_e3ee4023a1c1513cd8f660639c4e0cd9 = L.marker(
+                [40.7526907, -73.98529769999999],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_36bb4eeb63e32a5a31197383802db1c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_636f551e44087cd9a88e9e97dd88f455 = $(`<div id="html_636f551e44087cd9a88e9e97dd88f455" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Pho 39</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: N/A<br>70 W 39th St, New York</div></div>`)[0];
+                popup_36bb4eeb63e32a5a31197383802db1c1.setContent(html_636f551e44087cd9a88e9e97dd88f455);
+            
+        
+
+        marker_e3ee4023a1c1513cd8f660639c4e0cd9.bindPopup(popup_36bb4eeb63e32a5a31197383802db1c1)
+        ;
+
+        
+    
+    
+            var marker_d7c762ee607228290c62166882349f83 = L.marker(
+                [40.7532964, -73.9694208],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_436c3d160552bcc377d6ffe6ea3636e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7675d07d2b4eed8f995ffc785d54142 = $(`<div id="html_d7675d07d2b4eed8f995ffc785d54142" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Mama Pho</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>900 2nd Ave, New York</div></div>`)[0];
+                popup_436c3d160552bcc377d6ffe6ea3636e8.setContent(html_d7675d07d2b4eed8f995ffc785d54142);
+            
+        
+
+        marker_d7c762ee607228290c62166882349f83.bindPopup(popup_436c3d160552bcc377d6ffe6ea3636e8)
+        ;
+
+        
+    
+    
+            var marker_7680a9acfab490d119a8955780db9171 = L.marker(
+                [40.7175116, -73.9943626],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_88a29153ebd1b371f3c1cfd241f08997 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8442aedd787baf0affbdccaa783e3c9 = $(`<div id="html_b8442aedd787baf0affbdccaa783e3c9" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Kitchen Cô Út</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>85 Chrystie St, New York</div></div>`)[0];
+                popup_88a29153ebd1b371f3c1cfd241f08997.setContent(html_b8442aedd787baf0affbdccaa783e3c9);
+            
+        
+
+        marker_7680a9acfab490d119a8955780db9171.bindPopup(popup_88a29153ebd1b371f3c1cfd241f08997)
+        ;
+
+        
+    
+    
+            var marker_1270130d0767973dfd7dbb52b7aad96c = L.marker(
+                [40.7274279, -73.9882981],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_115260b9535396a90c36c499f22862dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01211306b99f349a1937edcf7b376782 = $(`<div id="html_01211306b99f349a1937edcf7b376782" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Monsieur Vo</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>104 2nd Ave, New York</div></div>`)[0];
+                popup_115260b9535396a90c36c499f22862dd.setContent(html_01211306b99f349a1937edcf7b376782);
+            
+        
+
+        marker_1270130d0767973dfd7dbb52b7aad96c.bindPopup(popup_115260b9535396a90c36c499f22862dd)
+        ;
+
+        
+    
+    
+            var marker_bf9680cd967e6946a26fe0380f1e7aee = L.marker(
+                [40.7250149, -73.9517523],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_549374e9442201c17fd4dc4c0403ce90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a28eedf05e2692c55eeaa6412a93a21 = $(`<div id="html_7a28eedf05e2692c55eeaa6412a93a21" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Mama Pho</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>685 Manhattan Ave, Brooklyn</div></div>`)[0];
+                popup_549374e9442201c17fd4dc4c0403ce90.setContent(html_7a28eedf05e2692c55eeaa6412a93a21);
+            
+        
+
+        marker_bf9680cd967e6946a26fe0380f1e7aee.bindPopup(popup_549374e9442201c17fd4dc4c0403ce90)
+        ;
+
+        
+    
+    
+            var marker_04473f1392f8adc26b471559ac85ccb1 = L.marker(
+                [40.7234293, -73.9831653],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_ac3d8fb6698e3956405cb3dd7046f19e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21d3b1478eb79d08c13936a0223790a5 = $(`<div id="html_21d3b1478eb79d08c13936a0223790a5" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Van Đa</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/1088450-200.png" width="15" height="15" style="background: transparent;"/><br>Price: $$<br>234 E 4th St, New York</div></div>`)[0];
+                popup_ac3d8fb6698e3956405cb3dd7046f19e.setContent(html_21d3b1478eb79d08c13936a0223790a5);
+            
+        
+
+        marker_04473f1392f8adc26b471559ac85ccb1.bindPopup(popup_ac3d8fb6698e3956405cb3dd7046f19e)
+        ;
+
+        
+    
+    
+            var marker_f0fb062679c09ab5520fbcfcf5f592d0 = L.marker(
+                [40.7304053, -73.9861088],
+                {}
+            ).addTo(map_22ee36ee4d7bd1b757517cb0fb5ae474);
+        
+    
+        var popup_f3b772206af3801d8bfc1f8758aaaf43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4007a37fc6a2cf6d259b893b0419bdb = $(`<div id="html_e4007a37fc6a2cf6d259b893b0419bdb" style="width: 100.0%; height: 100.0%;"> <style>     .leaflet-popup-content {         width: auto !important;  /* adjust as necessary */         height: 110px !important;  /* adjust as necessary */     } </style> <div style='width: auto; min-width: 120px;'><strong>Love Pho</strong><br>Rating: <img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/download.png" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><img src="/Users/yvonlu/Desktop/Vietnamese 2/126155384-full-single-star.jpg" width="15" height="15" style="background: transparent;"/><br>Price: $<br>174 2nd Ave, New York</div></div>`)[0];
+                popup_f3b772206af3801d8bfc1f8758aaaf43.setContent(html_e4007a37fc6a2cf6d259b893b0419bdb);
+            
+        
+
+        marker_f0fb062679c09ab5520fbcfcf5f592d0.bindPopup(popup_f3b772206af3801d8bfc1f8758aaaf43)
+        ;
+
+        
+    
+</script>
+</html>
