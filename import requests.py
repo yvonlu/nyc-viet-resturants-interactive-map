@@ -31,7 +31,7 @@ def get_places(api_key, location, radius, keyword):
     return places
 
 
-api_key = "AIzaSyAE1lOonmTMXswBvkNM2GufCC4-BpeYZMg"
+api_key = "" #Enter Your api_key
 location = "40.712776,-74.005974"  # coordinates for NYC
 radius = "5000"  # adjust as needed to cover the area you're interested in
 keyword = "Vietnamese restaurant"
